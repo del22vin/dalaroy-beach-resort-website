@@ -1,0 +1,85 @@
+
+.fh5co-text h2.productName{
+	font-size: 24px;
+	
+}
+
+.fh5co-text h2.productName, .productPrice{
+	   text-align:left;
+	   margin-left:8px;
+}
+
+.seeMoreBtn{
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: #191919;
+    margin-top: 48px;
+    font-size: 24px;
+	text-decoration:underline;
+}
+
+#NewsAndUpdatesSlideContainer{
+	margin:auto;
+	width: 100%;
+}
+
+#NewsAndUpdatesSlideContainer ul{
+	padding-left: 0;
+}
+
+#NewsAndUpdatesHeader {
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+#NewsAndUpdatesContent h2{
+	text-align: center;
+}
+#NewsAndUpdatesContent{
+    margin-top: 32px;
+    padding-bottom: 80px;
+    /* border-bottom: 1px solid #b1b1b1; */
+}
+#WelcomeContainer{
+
+		background: #f7f7f7;
+}
+#WelcomeMsgImg img{
+		width: 100%;
+}
+
+/* #WavesDivider{
+	background-image: url('../../images/waves.png');
+} */
+/*----Begin Responsive----*/
+
+@media only screen and (max-width: 1024px) {
+    #WelcomeMsg {
+		text-align: center;
+		width: 100%;
+    }
+	 #WelcomeMsgImg {
+		width: 100%;
+		display: block;
+		margin: auto;
+		text-align: center;
+    }
+	#WelcomeMsgImg img{
+		margin: auto;
+	}
+}
+
+
+@media only screen and (max-width: 768px){
+	
+	#fh5co-header nav li a {
+    padding: 10px 8px;
+}
+}
+
+	
+	    
+	
+	
+	    
